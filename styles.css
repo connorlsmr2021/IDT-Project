@@ -45,3 +45,11 @@ h2 {
 .navitem a:hover {
     background-color: #00b300;
 }
+
+#footer {
+  clear: left;
+  background-color: #CCCCCC;
+  text-align: center;
+  padding: 20px;
+  height: 1%;
+}
