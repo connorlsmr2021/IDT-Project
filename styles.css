@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Changa';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 body {
   font-family: 'Changa', sans-serif;
   background-color: #dddddd;
@@ -46,10 +47,16 @@ h2 {
     background-color: #00b300;
 }
 
+#currentpage {
+    background-color: #808080;
+}
+
 #footer {
+  font-family: 'Open Sans', sans-serif;
   clear: left;
   background-color: #CCCCCC;
   text-align: center;
   padding: 20px;
   height: 1%;
+  font-size: 0.8em;
 }
