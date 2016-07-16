@@ -19,39 +19,39 @@ h2 {
 
 /* Navigation bar styling */
 .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 .navitem {
-    float: left;
+  float: left;
 }
 
 .navname {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .navitem a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .navitem a:hover {
-    background-color: #00b300;
+  background-color: #00b300;
 }
 
 #currentpage {
-    background-color: #808080;
+  background-color: #808080;
 }
 
 /* Footer styling */
@@ -67,8 +67,11 @@ h2 {
 
 /* Videos page styling */
 #videos {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 125px;
-  margin-left: 150px;
+  padding: 100px 30px 100px 150px;
+}
+
+#description {
+  padding: 100px 100px 100px 30px;
+  position: relative;
+  bottom: 200px;
 }
