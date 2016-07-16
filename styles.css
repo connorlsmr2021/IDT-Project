@@ -65,6 +65,11 @@ h2 {
   font-size: 0.8em;
 }
 
+/* Home Page Styling */
+#homepage {
+  font-family: 'Archivo Narrow', sans-serif;
+background-color: #f9f986;
+text-align: center;
 /* Videos page styling */
 #videos {
   padding: 100px 30px 100px 150px;
