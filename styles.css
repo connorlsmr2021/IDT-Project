@@ -4,7 +4,7 @@
 /* Main text and body styling */
 body {
   font-family: 'Changa', sans-serif;
-  background-color: 
+  background-color:
     background: #ffd633; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#ffd633, #ffffb3); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#ffd633, #ffffb3); /* For Opera 11.1 to 12.0 */
@@ -76,11 +76,16 @@ h2 {
 #homepage {
   font-family: 'Archivo Narrow', sans-serif;
   list-style-type: none;
-text-align: center;
+  text-align: center;
+}
+
 /* Videos page styling */
 #videos {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 125px;
-  margin-left: 150px;
+  padding: 100px 30px 100px 150px;
+}
+
+.description {
+  padding: 100px 100px 100px 30px;
+  position: relative;
+  bottom: 200px;
 }
