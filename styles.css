@@ -18,6 +18,11 @@ h1 {
   font-size: 2.5em;
 }
 
+h2 {
+  text-align: center;
+  font-size: 1em;
+}
+
 /* Navigation bar styling */
 .navbar {
 
@@ -49,11 +54,15 @@ h1 {
 }
 
 .navitem a:hover {
-    background-color: #00b300;
+    background-color: #ff0000;
 }
 
+
+  
+
 #currentpage {
-    background-color: #ff0000;
+    background-color: #4d0000;
+    
 }
 
 /* Footer styling */
@@ -76,10 +85,11 @@ h1 {
 
 /* Videos page styling */
 #videos {
-  padding: 10px 30px 50px 150px;
+  padding: 100px 30px 100px 150px;
 }
 
 .description {
+  font-size: 1em;
   padding: 100px 100px 100px 30px;
   position: relative;
   bottom: 200px;
