@@ -10,7 +10,6 @@ body {
     background: -o-linear-gradient(#ffd633, #ffffb3); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#ffd633, #ffffb3); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#ffd633, #ffffb3); /* Standard syntax */
-
 }
 
 h1 {
@@ -20,60 +19,59 @@ h1 {
 
 h2 {
   text-align: center;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 /* Navigation bar styling */
 .navbar {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #800000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #800000;
 }
 
 .navitem {
-    float: left;
+  float: left;
 }
 
 .navname {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .navitem a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .navitem a:hover {
-    background-color: #ff0000;
+  background-color: #ff0000;
 }
 
-
-  
-
 #currentpage {
-    background-color: #4d0000;
-    
+  background-color: #4d0000;
 }
 
 /* Footer styling */
 #footer {
   font-family: 'Open Sans', sans-serif;
   clear: left;
-  background-color: #CCCCCC;
+  background-color: #800000;
   text-align: center;
   padding: 1px;
   height: 1%;
   font-size: 0.8em;
+}
+
+.footertext {
+  color: white;
 }
 
 /* Home Page Styling */
@@ -85,11 +83,10 @@ h2 {
 
 /* Videos page styling */
 #videos {
-  padding: 100px 30px 100px 150px;
+  padding: 10px 30px 50px 150px;
 }
 
 .description {
-  font-size: 1em;
   padding: 100px 100px 100px 30px;
   position: relative;
   bottom: 200px;

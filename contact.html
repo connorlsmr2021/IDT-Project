@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Contact Us - Gold Brick Studios</title>
+  <meta charset="UTF-8">
+</head>
 <body>
+  <ul class="navbar">
+    <li class="navitem"><span class="navname">Gold Brick Studios</span></li>
+    <li class="navitem" id="otherpage"><a href="index.html">Home</a></li>
+    <li class="navitem" id="otherpage"><a href="videos.html">Videos</a></li>
+    <li class="navitem" id="currentpage"><a href="contact.html">Contact us</a></li>
+  </ul>
 
-<h2>Contact Us:</h2>
+  <div>
+    <h2>Contact us</h2>
 
-<form action="MAILTO:goldbrickstudios97@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name" value="Your Name or Youtube Username Here" size="50"><br>
-E-mail:<br>
-<input type="text" name="mail" value="Insert Your Email Address Here" size="50"><br>
-<p>Why do we need this?</p>
-Message:<br>
-<input type="text" name="comment" value="Your Message Here" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
+    <p>This is some text.</p>
 
+    <form id="emailform" action="mailto:goldbrickstudios97@gmail.com" method="get" enctype="text/plain">
+      <input type="submit" value="Click here to send us an email.">
+    </form>
+  </div>
+
+  <div id="footer">
+    <p class="footertext">Copyright &copy; 2016 Gold Brick Studios. All rights reserved.</p>
+    <p class="footertext">Gold Brick Studios is not affiliated or endorsed by the LEGO&reg; Group.</p>
+  </div>
 </body>
 </html>
