@@ -67,16 +67,15 @@ h2 {
   text-align: center;
   padding: 1px;
   height: 1%;
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
 
 .footertext {
   color: white;
 }
 
-/* Home Page Styling */
+/* Home page styling */
 #homepage {
-  font-family: 'Archivo Narrow', sans-serif;
   list-style-type: none;
   text-align: center;
 }
